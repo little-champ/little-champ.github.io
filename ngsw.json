@@ -1,0 +1,75 @@
+{
+  "configVersion": 1,
+  "timestamp": 1702701145611,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-TI3SNJW5.js",
+        "/manifest.webmanifest",
+        "/polyfills-LZBJRJJE.js",
+        "/styles-BOLDOZWM.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/android-chrome-192x192.png",
+        "/assets/icons/android-chrome-512x512.png",
+        "/assets/icons/apple-touch-icon.png",
+        "/assets/icons/favicon-16x16.png",
+        "/assets/icons/favicon-32x32.png",
+        "/assets/icons/favicon.ico"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/android-chrome-192x192.png": "219b085867d0b5d94d0ecff54161198b3b624f92",
+    "/assets/icons/android-chrome-512x512.png": "df7cd42d9d8a6c1b8917bfe6c54afe99661c136b",
+    "/assets/icons/apple-touch-icon.png": "86aabb82d5fb1f45b26ed314709233f1f4b7f9b3",
+    "/assets/icons/favicon-16x16.png": "bcf0c6b1fffc216bc4f803596d5ed8575280038d",
+    "/assets/icons/favicon-32x32.png": "1cd4f845776cab86070c04f48d07f25dc5fdbf0a",
+    "/assets/icons/favicon.ico": "cebae411cc84e4c3ecd910761c7921c3f3949c3e",
+    "/favicon.ico": "cebae411cc84e4c3ecd910761c7921c3f3949c3e",
+    "/index.html": "fa8e2c7a37389a9a261cfb88ab1ba182eda36bdc",
+    "/main-TI3SNJW5.js": "03ba41d15933598a03e1df024f7634597e3c9651",
+    "/manifest.webmanifest": "905c287a082a510dabc7cdf13b5667a411e5db2b",
+    "/polyfills-LZBJRJJE.js": "fda1c82c5c620f1fa442f687b3df45a037f6fcc9",
+    "/styles-BOLDOZWM.css": "479ed28412cbc83f52396c638db6705ee3ba631f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
